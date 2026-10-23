@@ -1580,3 +1580,12 @@ AI INTRO SCREEN
   }
 
 }
+
+/* Fix spacing between experience cards */
+.exp-grid {
+  gap: 0 !important;
+}
+
+.exp-grid > .exp-card:not(:last-child) {
+  margin-bottom: 40px;
+}
